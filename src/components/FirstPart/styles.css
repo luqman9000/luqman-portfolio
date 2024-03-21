@@ -1,0 +1,24 @@
+.firstpart{
+    display: flex;
+    flex-direction:column;
+    padding-top: 20px;
+    width:100%;
+    gap: 10px;
+    height: 800px;
+    background-color: pink;
+    align-items: center; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .firstpart{
+        display: flex;
+        flex-direction:column;
+        padding-top: 20px;
+        width:100%;
+        gap: 10px;
+        height: 1000px;
+        background-color: pink;
+        align-items: center; 
+    }
+}
+
