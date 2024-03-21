@@ -26,11 +26,11 @@ const Greet = () => {
             </p>
             <div className="medium" style={{ display: 'flex', flexDirection: matches ? 'column' : 'row', justifyContent: matches ? 'initial' : 'center', gap: matches ? '0px' : '10px' }}>
                 {matches && <p>My Blog</p>}
-                <a href="https://github.com/luqman9000">
+                <a href="https://github.com/luqman9000" aria-label="Medium Blog">
                     <BsMedium size={40}/>
                 </a>
                 {matches && <p>My Github profile</p>}
-                <a href="https://github.com/luqman9000">
+                <a href="https://github.com/luqman9000" aria-label="Github">
                     <FaGithub size={40}/>
                 </a>
             </div>
