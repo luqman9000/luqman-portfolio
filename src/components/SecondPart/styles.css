@@ -1,0 +1,24 @@
+.secondpart{
+    display: flex;
+    flex-direction:column;
+    padding-top: 20px;
+    width:100%;
+    gap: 10px;
+    height: 800px;
+    background-color: lightgreen;
+    align-items: center; 
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .secondpart{
+        display: flex;
+        flex-direction:column;
+        padding-top: 20px;
+        width:100%;
+        gap: 10px;
+        height: 1000px;
+        background-color: lightgreen;
+        align-items: center; 
+    }
+}

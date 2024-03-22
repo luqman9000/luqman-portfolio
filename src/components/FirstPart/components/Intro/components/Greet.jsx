@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { BsMedium } from 'react-icons/bs';
+import Medium from './Medium';
+import Github from './Github';
 
 const Greet = () => {
     const [matches, setMatches] = useState(window.matchMedia("(min-width: 1000px)").matches);
@@ -26,17 +26,9 @@ const Greet = () => {
             </p>
             <div className="medium" style={{ display: 'flex', flexDirection: matches ? 'column' : 'row', justifyContent: matches ? 'normal' : 'center', gap: matches ? '0px' : '10px' }}>
                 {matches && <div><p>My Blog</p></div>}
-                <div>
-                    <a href="https://medium.com/@luqmanhal9000" aria-label="Medium Blog" target="_blank" rel="noreferrer">
-                        <BsMedium size={40}/>
-                    </a>
-                </div>
+                <Medium/>
                 {matches && <div><p>My Github</p></div>}
-                <div>
-                    <a href="https://github.com/luqman9000" aria-label="Github" target="_blank" rel="noreferrer">
-                        <FaGithub size={40}/>
-                    </a>
-                </div>
+                <Github/>
             </div>
         </div>
     )
