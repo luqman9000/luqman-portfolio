@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles.css'
 import Carousel from './components/Carousel';
-const SecondPart = () => {
+const ThirdPart = () => {
     return(
-        <div className="secondpart">
+        <div className="thirdpart">
+            <div>
+                Project
+            </div>
             <Carousel/>
         </div>
     )
 }
-export default SecondPart;
+export default ThirdPart;

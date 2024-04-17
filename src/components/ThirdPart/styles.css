@@ -1,9 +1,8 @@
-.secondpart{
+.thirdpart{
     display: flex;
     flex-direction:column;
-    padding-top: 20px;
     width:100%;
-    gap: 10px;
+    gap: 100px;
     height: 800px;
     background-color: lightgreen;
     align-items: center; 
@@ -11,7 +10,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .secondpart{
+    .thirdpart{
         display: flex;
         flex-direction:column;
         padding-top: 20px;
