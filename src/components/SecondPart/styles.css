@@ -1,0 +1,20 @@
+.secondpart{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.tech-stack-container{
+    padding-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+}
